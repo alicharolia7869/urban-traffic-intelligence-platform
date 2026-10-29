@@ -27,3 +27,7 @@ frontend/build/
 .env.*
 .DS_Store
 Thumbs.db
+
+
+.vercel/
+frontend/.vercel/
