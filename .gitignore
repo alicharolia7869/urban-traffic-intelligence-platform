@@ -1,0 +1,29 @@
+# Python / Backend / ML
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Generated Database & ML Binary Artifacts
+backend/database/*.db
+backend/database/*.db-journal
+backend/database/*.db-wal
+backend/database/*.db-shm
+ml/models/*.joblib
+
+# Node / Next.js Frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+*.tsbuildinfo
+
+# Environment & OS
+.env
+.env.*
+.DS_Store
+Thumbs.db
